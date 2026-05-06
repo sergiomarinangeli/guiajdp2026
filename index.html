@@ -68,7 +68,7 @@
             
             <!-- Inicio de Jornada -->
             <div class="space-y-3">
-                <!-- Acreditación (Horario modificado 08:00 a 09:00) -->
+                <!-- Acreditación -->
                 <div class="bg-white rounded-xl shadow-sm p-4 border-l-4 border-blue-600 flex justify-between items-center">
                     <div>
                         <p class="text-xs font-bold text-slate-400">08:00 a 09:00 HS</p>
@@ -89,7 +89,7 @@
                     </div>
                 </div>
 
-                <!-- Acto de Apertura (Horario modificado 10:00 HS) -->
+                <!-- Acto de Apertura -->
                 <div class="bg-white rounded-xl shadow-sm p-4 border-l-4 border-blue-600 flex justify-between items-center">
                     <div>
                         <p class="text-xs font-bold text-slate-400">10:00 HS</p>
@@ -121,7 +121,7 @@
                             <p class="text-[12px] text-slate-600">Coord: <span class="font-bold text-slate-900">Martin Franco</span></p>
                         </div>
                         <div class="bg-slate-50 p-2 rounded-lg">
-                            <p class="text-[13px] text-slate-500 uppercase">Padel / Aula 1</p>
+                            <p class="text-[13px] text-slate-500 uppercase">Tenis de Mesa / Sede Fed.</p>
                             <p class="text-[12px] text-slate-600">Coord: <span class="font-bold text-slate-900">Gastón Hirtz</span></p>
                         </div>
                     </div>
@@ -193,10 +193,6 @@
                     </div>
                     <div class="p-3 grid grid-cols-2 gap-2">
                         <div class="bg-slate-50 p-2 rounded-lg">
-                            <p class="text-[13px] text-slate-500 uppercase">Tenis Mesa / Sede Fed.</p>
-                            <p class="text-[12px] text-slate-600">Coord: <span class="font-bold text-slate-900">Gastón Hirtz</span></p>
-                        </div>
-                        <div class="bg-slate-50 p-2 rounded-lg">
                             <p class="text-[13px] text-slate-500 uppercase">Escalada / Muro</p>
                             <p class="text-[12px] text-slate-600">Coord: <span class="font-bold text-slate-900">Fiorella Mariani</span></p>
                         </div>
@@ -207,6 +203,10 @@
                         <div class="bg-slate-50 p-2 rounded-lg">
                             <p class="text-[13px] text-slate-500 uppercase">Beach Voley / Estadio</p>
                             <p class="text-[12px] text-slate-600">Coord: <span class="font-bold text-slate-900">Antonella Fetter</span></p>
+                        </div>
+                        <div class="bg-slate-50 p-2 rounded-lg">
+                            <p class="text-[13px] text-slate-500 uppercase">Lucha / Gimnasio 2</p>
+                            <p class="text-[12px] text-slate-600">Coord: <span class="font-bold text-slate-900">Martín Franco</span></p>
                         </div>
                     </div>
                 </div>
@@ -229,6 +229,10 @@
                         <div class="bg-slate-50 p-2 rounded-lg flex justify-between items-center">
                             <span class="text-[13px] text-slate-500 uppercase">Tiro Arco / Área Tiro</span>
                             <span class="text-[12px] font-bold text-slate-900">Martín Franco</span>
+                        </div>
+                        <div class="bg-slate-50 p-2 rounded-lg flex justify-between items-center border-t border-slate-100 pt-2">
+                            <span class="text-[13px] text-slate-500 uppercase">Padel / Aula 1</span>
+                            <span class="text-[12px] font-bold text-slate-900">Gastón Hirtz</span>
                         </div>
                     </div>
                 </div>
@@ -301,15 +305,14 @@
                     <div><h4 class="font-bold text-slate-800 text-sm">Polideportivo Butaló</h4><p class="text-xs text-blue-600">Álvarez 348</p></div>
                     <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
                 </button>
-                <!-- 1. Nueva dirección: Club Estudiantes -->
                 <button onclick="openMap('Moreno 651, Santa Rosa, La Pampa')" class="location-card w-full text-left bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex items-center justify-between group">
                     <div><h4 class="font-bold text-slate-800 text-sm">Club Estudiantes</h4><p class="text-xs text-blue-600">Moreno 651</p></div>
                     <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
                 </button>
             </div>
             
-            <!-- 2. Croquis al final de Direcciones -->
-            <div class="mt-6 px-1">
+            <!-- Croquis al final de Direcciones -->
+            <div class="mt-6 px-1 pb-10">
                 <p class="text-[10px] font-bold text-slate-400 uppercase mb-2">Croquis de Ubicación</p>
                 <img src="image_f4498f.png" alt="Croquis de ubicación" class="w-full h-auto rounded-xl shadow-md border border-slate-200">
             </div>
@@ -330,8 +333,8 @@
                     <div class="p-3 flex justify-between"><span>Escalada</span><span class="font-bold">Germán Weiss</span></div>
                     <div class="p-3 flex justify-between"><span>Fútbol</span><span class="font-bold">Gastón Afonso</span></div>
                     <div class="p-3 flex justify-between"><span>Gimnasia</span><span class="font-bold">Fernando Sánchez</span></div>
-                    <div class="p-3 flex justify-between"><span>Handball</span><span class="font-bold">Walter Salguero</span></div>
-                    <div class="p-3 flex justify-between"><span>Hóckey</span><span class="font-bold">Verónica Dávila</span></div>
+                    <div class="p-3 flex justify-between"><span>Handball</span><span class="font-bold">Walter Salgueiro</span></div>
+                    <div class="p-3 flex justify-between"><span>Hóckey</span><span class="font-bold"></span></div>
                     <div class="p-3 flex justify-between"><span>Judo</span><span class="font-bold">Oritia González</span></div>
                     <div class="p-3 flex justify-between"><span>Levantamiento</span><span class="font-bold">Mario González</span></div>
                     <div class="p-3 flex justify-between"><span>Lucha</span><span class="font-bold">Oliver Arévalo</span></div>
@@ -389,6 +392,8 @@
             const target = new Date(`${eventDay} 08:00:00`).getTime();
             const diff = target - now;
             const element = document.getElementById("timer-acreditacion");
+
+            if (!element) return;
 
             if (diff < 0) {
                 element.innerHTML = "En curso / Finalizado";
